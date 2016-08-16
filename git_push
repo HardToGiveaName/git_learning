@@ -1,0 +1,12 @@
+# way to use git push
+
+git push <remote_repository> <src_br>[:<dst_br>]
+
+ex: git push origin master[:master]
+
+
+git push origin :master   删除远程分支master 
+
+等同于
+
+git push origin --delete master
